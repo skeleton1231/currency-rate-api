@@ -80,8 +80,10 @@ return [
     |
     */
     'services' => [
-        'fixer' => ['access_key' => '338nrJEc4WWSQ8kvW2uGBiD1VlIYfgSO', 'enterprise' => false],
-        'currency_layer' => ['access_key' => 'secret', 'enterprise' => false],
+        'apilayer_fixer' => ['api_key' => '338nrJEc4WWSQ8kvW2uGBiD1VlIYfgSO'],
+        //'apilayer_currency_data' => ['api_key' => 'Get your key here: https://apilayer.com/marketplace/currency_data-api'],
+        //'apilayer_exchange_rates_data' => ['api_key' => 'Get your key here: https://apilayer.com/marketplace/exchangerates_data-api'],
+        //'abstract_api' => ['api_key' => 'Get your key here: https://app.abstractapi.com/users/signup'],
     ],
 
     /*
