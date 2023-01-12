@@ -18,6 +18,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/currency', [CurrencyController::class, 'show']);
+Route::get('/currency_show', [CurrencyController::class, 'show']);
+Route::get('/currency_query', [CurrencyController::class, 'query']);
 
 
